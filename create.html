@@ -1,0 +1,14 @@
+{% extends 'index.html' %}
+{% block title %}
+Add note
+{% endblock %}
+
+{% block content %}
+<h1>Add note</h1>
+
+<form method="post" class="form-control">
+    <input type="text" name="title" placeholder="Enter title of article" class="form-control"><br>
+    <input type="text" name="text" placeholder="Enter text of article" class="form-control"><br>
+    <button class="btn btn-success" type="submit">Add</button>
+</form>
+{% endblock %}
